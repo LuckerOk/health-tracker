@@ -1,0 +1,26 @@
+@import './palette';
+
+.registration {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto';
+
+  .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    .error {
+      color: $color1;
+      margin-top: 15px;
+    }
+  }
+
+  .right {
+    position: relative;
+    background-image: url("../assets/registration-background.png");
+    background-size: cover;
+    background-position: top center;
+    width: 50%;
+  }
+}
